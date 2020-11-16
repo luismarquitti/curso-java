@@ -21,6 +21,12 @@ public class TestaMetodos {
 
         System.out.println(contaLuis.saldo);
         System.out.println(contaEluma.saldo);
+
+        contaLuis.deposita(100);
+        contaEluma.saca(50);
+
+        System.out.println(contaLuis.saldo);
+        System.out.println(contaEluma.saldo);
     }
     
 }
