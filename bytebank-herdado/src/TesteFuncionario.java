@@ -3,7 +3,7 @@ public class TesteFuncionario {
 
 	public static void main(String[] args) {
 		
-		Funcionario luis = new Funcionario();
+		Gerente luis = new Gerente();
 		
 		luis.setNome("Luís Eduardo");
 		luis.setCpf("374.672.318-3");

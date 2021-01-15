@@ -1,6 +1,9 @@
 
 public class TestaGerente {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		Gerente g1 = new Gerente();
@@ -16,6 +19,8 @@ public class TestaGerente {
 		boolean autenticou = g1.autentica(2222);
 		
 		System.out.println(autenticou);
+		
+		System.out.println(g1.getBonificacao());
 
 	}
 

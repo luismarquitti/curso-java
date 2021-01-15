@@ -2,7 +2,7 @@ public class Cliente {
     private String nome;
     private String cpf;
     private String profissao;
-    private Endereço endereço;
+    private Endereco endereco;
     
     public void setNome(String nome) {
         this.nome = nome;
@@ -25,11 +25,11 @@ public class Cliente {
         return this.profissao;
     }
 
-    public void setEndereço(Endereço endereço) {
-        this.endereço = endereço;
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
-    public Endereço getEndereço() {
-        return this.endereço;
+    public Endereco getEndereco() {
+        return this.endereco;
     }
 }
 

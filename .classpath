@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="bytebank-herdado/src"/>
+	<classpathentry kind="src" path="luisbak-encapsulado"/>
+	<classpathentry kind="src" path="luisbank"/>
+	<classpathentry kind="src" path="sintaxe-basica/src"/>
+	<classpathentry kind="src" path="sintaxe-variaveis-e-fluxo/src"/>
+	<classpathentry kind="output" path="bytebank-herdado/bin"/>
+</classpath>
