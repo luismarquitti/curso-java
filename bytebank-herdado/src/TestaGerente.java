@@ -7,7 +7,7 @@ public class TestaGerente {
 	public static void main(String[] args) {
 
 		Gerente g1 = new Gerente();
-		g1.setNome("Luís Eduardo");
+		g1.setNome("LuÃ­s Eduardo");
 		g1.setCpf("374.672.318-30");
 		g1.setSalario(3000);
 		

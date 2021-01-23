@@ -5,7 +5,7 @@ public class TesteFuncionario {
 		
 		Gerente luis = new Gerente();
 		
-		luis.setNome("Luís Eduardo");
+		luis.setNome("LuÃ­s Eduardo");
 		luis.setCpf("374.672.318-3");
 		luis.setSalario(3000);
 		
