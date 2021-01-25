@@ -16,6 +16,16 @@ public class Fluxo {
         System.out.println("Ini do metodo2");
         for(int i = 1; i <= 5; i++) {
             System.out.println(i);
+            try {
+                Conta conta = null;
+                conta.deposita();
+                //int a = i /0;
+            } catch (ArithmeticException | NullPointerException exception) {
+                String message = exception.getMessage();
+                System.out.println("Exception" + message);
+                exception.printStackTrace();
+
+            }
         }
         System.out.println("Fim do metodo2");
     }
